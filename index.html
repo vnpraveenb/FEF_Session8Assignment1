@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Student Login Form</title> <!-- Title of the Webpage -->
+    <link rel="stylesheet" href="main.css"> <!-- Linking the css to this webpage -->
+
+</head>
+<body>
+
+    <h2> A Form for Student Login and Registration</h2>  <!-- Heading of this page -->
+    <hr>
+    <br> <br>
+    <div>               
+        <div class="head"></div>
+        <br>
+        <form class="form">
+            <h3>Enter the system</h3>
+
+            <p class="headertext">
+                <span>It is necessary to login in Your account in order to sign up for a course.</span> 
+            </p>
+
+            <p class="registerpara">
+                <span class="regspan1">ARE YOU NEW?</span>
+                <span class="regspan2">REGISTER</span>
+            </p>
+    
+            <div class="register">
+
+                <input class="registerfields" type="text" name="username" required placeholder="Username"
+                size="40">
+                <br><br>
+            
+                <input class="registerfields" type="email" name="emailid" required placeholder="Email" size="40">
+                <br><br>
+             
+                <input class="registerfields" type="password" name="password" required placeholder="Password" size="40">
+                <br><br>
+               
+                <input class="registerfields" type="password" name="confirmpassword" required placeholder="Confirm Password" size="40">
+                <br><br>
+              
+                <input type="submit" name="register" value="Register" class="submitbutton">
+
+            </div>
+
+
+            <div class="login">
+                <p class="loginpara"><span class="loginspan1">ALREADY A STUDENT?</span><span class="loginspan2">LOGIN</span></p>
+
+                <input type="text" name="loginname" required placeholder="Username" size="40"  >
+                <br><br>
+
+                <input type="password" name="loginpassword" required placeholder="Password" size="40" >
+                <br><br>
+
+                <input type="checkbox" name="remember" value="yes"><span class="checkbox">Remember me?</span>
+        
+                <input type="submit" name="register" value="Login" class="loginbutton">
+                <br><br>
+
+                <span class="loginspan3">Forgot Password?</span>
+            </div>
+    
+        </form>
+</body>
+</html>

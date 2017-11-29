@@ -1,0 +1,125 @@
+.head{
+    height: 20px;
+    background-color: #2A646C;
+    width: 60%;
+    margin: auto;
+}
+.form{
+    background-color: lightgrey;
+    height: 350px;
+    width: 50%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-top: 10px;
+    color:darkslateblue;
+}
+
+.headertext{
+    height:20px;
+    color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 12px;
+}
+
+.registerpara{
+    width:50%;
+}
+
+.regspan1{
+    font-weight: bold;
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    color: #5D8AA8;
+    margin-right: 5px;
+}
+.regspan2{
+    color:darkslateblue;
+    font-weight: bold;
+    font-family: "Lucida Sans";
+    font-size: 16px;
+}
+
+.registerfields{
+    border-width: 2px;
+    border-color:red;
+}
+
+.register{
+    margin: 5px;
+    width: 50%;
+    position: relative;
+}
+
+.submitbutton{
+    border: 2px solid darkslateblue;
+    float:right;
+    height: 30px;
+    position: absolute;
+    right: 70px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:darkslateblue;
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+
+.loginpara{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.loginspan1, .loginspan2{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 14px;
+    color: white;
+    padding-top: 25px;
+    padding: 2px;
+    margin-top:30px;
+}
+
+.login{
+    margin: 5px;
+    width: 40%;
+    height: 230px;
+    position: absolute;
+    right: 60px;
+    top: 80px;
+    background-color: rgb(24, 65, 126);
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.loginbutton{
+    border: 2px solid orange;
+    background-color: rgb(24, 65, 126);
+    float:right;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color:white;    
+    
+}
+
+.loginspan3{
+    float:right;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 10px;
+    padding: 5px;
+    text-decoration:underline;
+
+}
+.checkbox{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 13px;
+}
